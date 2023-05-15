@@ -10,5 +10,9 @@ repositories {
 }
 
 dependencies {
+    implementation project(path: ':spring-context')
     testImplementation 'junit:junit:4.12'
+    //compile(project(":spring-beans"))
+    //compile(project(':spring-core'))
+    //compile(project(':spring-context'))
 }
